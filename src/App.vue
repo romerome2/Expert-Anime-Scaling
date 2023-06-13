@@ -6,6 +6,7 @@ import {ref, watch} from 'vue'
   <v-card>
     <v-layout>
       <v-navigation-drawer
+      location="right"
         expand-on-hover
         rail
         color="red"

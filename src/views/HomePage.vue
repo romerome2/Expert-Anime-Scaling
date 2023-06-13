@@ -1,7 +1,7 @@
 <script setup>
 async function bum() {
     console.log("yyyy")
-    const result = await fetch('http://api.anidb.net:9001/httpapi?request=hotanime')
+    const result = await fetch('https://api.waifu.im/ /search')
     console.log(result);
 }
 </script>
